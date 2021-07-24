@@ -14,10 +14,10 @@ const LineGraph = ({ type }) => {
       legend: {
         display: false,
       },
-      title: {
-        display: true,
-        text: `Worldwide total cases ${0}`,
-      },
+      // title: {
+      //   display: true,
+      //   text: `Worldwide new ${type}`,
+      // },
       interaction: {
         mode: "index",
         intersect: false,

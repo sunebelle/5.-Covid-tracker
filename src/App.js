@@ -113,10 +113,10 @@ const App = () => {
         />
       </div>
       <div className="app__right">
-        <h1> Live cases by country</h1>
+        <h2> Live cases by country</h2>
         <Table countries={countries} />
 
-        {/* <h1> Worldwide new {casesType}</h1> */}
+        <h2 className="app__graphTitle"> Worldwide new {casesType}</h2>
         <LineGraph className="app__graph" type={casesType} />
       </div>
     </div>
