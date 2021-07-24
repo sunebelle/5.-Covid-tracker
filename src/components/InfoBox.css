@@ -1,0 +1,42 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+.infoBox:not(:last-child) {
+  margin-right: 5%;
+}
+
+.infoBox__title,
+.infoBox__total {
+  font-size: 1rem !important;
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+  color: gray !important;
+}
+.infoBox__cases {
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  color: #cc1034;
+}
+
+.infoBox--selected {
+  border-top: 10px solid #cc1034 !important;
+}
+.infoBox--red {
+  border-color: #cc1034 !important;
+}
+.infoBox--green {
+  border-color: #7dd71d !important;
+}
+.infoBox--dark {
+  border-color: #716f81 !important;
+}
+
+/* 
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+} */

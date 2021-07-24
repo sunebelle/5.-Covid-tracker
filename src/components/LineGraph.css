@@ -1,0 +1,9 @@
+.line__chart {
+  background-color: #fff;
+  height: 400px;
+}
+
+.chart {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.table {
+  margin-top: 20px;
+  height: 350px;
+  overflow-y: scroll;
+  background-color: burlywood;
+}
+table {
+  width: 100%;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+td {
+  text-align: left;
+  padding: 8px;
+}
